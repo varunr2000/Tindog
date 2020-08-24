@@ -18,7 +18,8 @@ h1 {
 }
 
 .nav-item{
-  font-weight: lighter;
+  color: #fff;
+  font-weight: bolder;
   font-size: 1rem;
   padding: 0 18px;
 }
@@ -110,15 +111,15 @@ h1 {
   font-size: 1.5;
 }
 
-@media (max-width: 1030px) {
+@media (max-width: 1020px) {
+#title {
+  text-align: center;
+}
+
 .title-img {
   position: static;
   transform: rotate(0);
-  margin: 5% 0 0;
-}
-
-#title{
-  text-align: center;
+  margin: 5% 50% 0;
 }
 }
 
